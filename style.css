@@ -1,0 +1,24 @@
+/* 
+* @Author: JacobSamro
+* @Date:   2015-06-12 23:37:16
+* @Last Modified by:   JacobSamro
+* @Last Modified time: 2015-06-12 23:42:49
+*/
+.Inspector{
+    width: 381px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.Inspector a{
+    background-color: #000;	
+    padding: 20px 30px;
+    border-radius:  10px 10px 0 0;
+    color: #FFF;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+iframe{
+	margin-top:20px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+<link rel="stylesheet" href="materialize/css/materialize.min.css">
+<script src="sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="sweetalert/dist/sweetalert.css">  
+</head>
+<body>
+<h1 style="text-align:center" id="question"> Who is Narendra Kedi ?</h1>
+<ul class="collection">
+    <li class="collection-item avatar answer" location='0' question='0'>
+      <i class="mdi-av-fast-forward circle"></i>
+      <span class="title"></span>
+      <p id="choice1" ></p>
+      <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+    </li>
+    <li class="collection-item avatar answer" location='1' question='0'>
+      <i class="mdi-av-fast-forward circle"></i>
+      <span class="title"></span>
+      <p id="choice2" ></p>
+      <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+    </li>
+    <li class="collection-item avatar answer" location='2' question='0'>
+      <i class="mdi-av-fast-forward circle"></i>
+      <span class="title"></span>
+      <p id="choice3" ></p>
+      <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+    </li>
+    <li class="collection-item avatar answer" location='3' question='0'>
+      <i class="mdi-av-fast-forward circle"></i>
+      <span class="title"></span>
+      <p id="choice4" ></p>
+      <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+    </li>
+  </ul>
+            
+<footer>
+	<img src="img/logo.png" style="position:fixed;bottom:0;right:0;margin:15px;">
+</footer>
+<!-- Modal Trigger -->
+  
+
+<!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>You are right !</h4>
+      <p>:) :) :)</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+</div>
+
+<!-- Modal Structure -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Sorry ! Try again</h4>
+      <p>: : :</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="materialize/js/jquery-2.1.1.min.js"></script>
+<script src="materialize/js/materialize.min.js"></script>
+<script src="quiz.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.modal-trigger').leanModal();
+});      
+</script>
