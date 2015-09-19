@@ -1,6 +1,6 @@
 var qBase = [
 	{"question":"Who is Narendra modi ?","answer":3,"choices":
-				["Crime Minister","IT Minister","Vetti Officer","Prime Minister"]
+				["Crime Minister","IT Minister","Educational Officer","Prime Minister"]
 	},
 	{"question":"which is the first indian satellite ?","answer":1,"choices":
 				["bhaskara","aryabhatta","columbia","rohini"]
